@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f1b38a8-f16e-4418-9b06-8ab7a48bd39d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sca_seata_account/src/main/java/com/sca/account/pojo/RequestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sca_seata_account/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sca_seata_order/src/main/java/com/sca/order/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.codecov.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/question.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/jvm.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/maven.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roadmap-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roadmap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse/eclipse-code-formatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-coverage/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-dependencies/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/acm.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/ans.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/dependency-management.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/dubbo.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/nacos-config.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/nacos-discovery.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/oss.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/rocketmq.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/schedulerx.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/sentinel.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/sidecar.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/sms.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc-zh/spring-cloud-alibaba.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/acm.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/ans.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/circuitbreaker-sentinel.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/dependency-management.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/dubbo.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/nacos-config.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/nacos-discovery.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/oss.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/rocketmq.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/schedulerx.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/sentinel.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/sms.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-docs/src/main/asciidoc/spring-cloud-alibaba.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/src/main/java/com/alibaba/cloud/examples/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-config-example/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/scripts/error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/scripts/feign-defaultmethod-error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/scripts/feign-error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/scripts/index.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/scripts/sleep.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/java/com/alibaba/cloud/examples/ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/java/com/alibaba/cloud/examples/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/java/com/alibaba/cloud/examples/UrlCleaner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/resources/degraderule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-example/src/main/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/feign-defaultmethod-error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/feign-error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/index.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/resttemplate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/scripts/sleep.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/java/com/alibaba/cloud/examples/ConsumerSCLBApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/java/com/alibaba/cloud/examples/MyLoadBalancerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/java/com/alibaba/cloud/examples/UrlCleaner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/resources/degraderule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-consumer-sclb-example/src/main/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-provider-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-provider-example/src/main/java/com/alibaba/cloud/examples/ProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-provider-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-client-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-client-example/src/main/java/com/alibaba/cloud/examples/GetConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-client-example/src/main/java/com/alibaba/cloud/examples/SpringCloudConfigClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-client-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-client-example/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-server-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-server-example/src/main/java/com/alibaba/cloud/examples/SpringCloudConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-discovery-spring-cloud-config-server-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-reactivediscovery-consumer-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-reactivediscovery-consumer-example/src/main/java/com/alibaba/cloud/examples/ConsumerReactiveApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/nacos-reactivediscovery-consumer-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-discovery-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-discovery-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-discovery-example/src/main/java/com/alibaba/cloud/examples/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-discovery-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-provider-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-provider-example/src/main/java/com/alibaba/cloud/examples/ProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/nacos-gateway-provider-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/nacos-example/nacos-gateway-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-consume-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-consume-example/src/main/java/com/alibaba/cloud/examples/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-consume-example/src/main/java/com/alibaba/cloud/examples/ReceiveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-consume-example/src/main/java/com/alibaba/cloud/examples/RocketMQConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-consume-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/src/main/java/com/alibaba/cloud/examples/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/src/main/java/com/alibaba/cloud/examples/RocketMQProduceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/src/main/java/com/alibaba/cloud/examples/SenderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/src/main/java/com/alibaba/cloud/examples/TransactionListenerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/rocketmq-example/rocketmq-produce-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/account-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/account-service/src/main/java/com/alibaba/cloud/examples/AccountApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/account-service/src/main/java/com/alibaba/cloud/examples/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/account-service/src/main/java/com/alibaba/cloud/examples/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/account-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/business-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/business-service/src/main/java/com/alibaba/cloud/examples/BusinessApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/business-service/src/main/java/com/alibaba/cloud/examples/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/business-service/src/main/java/com/alibaba/cloud/examples/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/business-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/src/main/java/com/alibaba/cloud/examples/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/src/main/java/com/alibaba/cloud/examples/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/src/main/java/com/alibaba/cloud/examples/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/src/main/java/com/alibaba/cloud/examples/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/storage-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/storage-service/src/main/java/com/alibaba/cloud/examples/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/storage-service/src/main/java/com/alibaba/cloud/examples/StorageApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/storage-service/src/main/java/com/alibaba/cloud/examples/StorageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/seata-example/storage-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/java/com/alibaba/cloud/examples/ExceptionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/java/com/alibaba/cloud/examples/JsonFlowRuleListConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/java/com/alibaba/cloud/examples/ServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/java/com/alibaba/cloud/examples/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/java/com/alibaba/cloud/examples/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/authority.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/degraderule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/flowrule.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/param-flow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/system.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-core-example/src/main/resources/templates/errorPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-api/src/main/java/com/alibaba/cloud/examples/FooService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-consumer-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-consumer-example/src/main/java/com/alibaba/cloud/examples/FooServiceConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-consumer-example/src/main/java/com/alibaba/cloud/examples/SentinelDubboConsumerApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-consumer-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-provider-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-provider-example/src/main/java/com/alibaba/cloud/examples/FooServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-provider-example/src/main/java/com/alibaba/cloud/examples/SentinelDubboProviderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-dubbo-example/sentinel-dubbo-provider-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/readme-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/java/com/alibaba/cloud/examples/ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/java/com/alibaba/cloud/examples/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/java/com/alibaba/cloud/examples/fallback/EchoServiceFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/java/com/alibaba/cloud/examples/fallback/EchoServiceFallbackFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/java/com/alibaba/cloud/examples/service/EchoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-consumer-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-provider-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-provider-example/src/main/java/com/alibaba/cloud/examples/ProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-provider-example/src/main/java/com/alibaba/cloud/examples/controller/EchoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-feign-example/sentinel-feign-provider-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/java/com/alibaba/cloud/examples/MySCGConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/java/com/alibaba/cloud/examples/RulesWebFluxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/java/com/alibaba/cloud/examples/SentinelSpringCloudGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/resources/api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-spring-cloud-gateway-example/src/main/resources/gateway.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/src/main/java/com/alibaba/cloud/examples/MyConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/src/main/java/com/alibaba/cloud/examples/SentinelWebFluxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/src/main/java/com/alibaba/cloud/examples/SentinelWebFluxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-webflux-example/src/main/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/java/com/alibaba/cloud/examples/RulesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/java/com/alibaba/cloud/examples/SentinelZuulApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/java/com/alibaba/cloud/examples/ZuulConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/resources/api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/sentinel-example/sentinel-zuul-example/src/main/resources/gateway.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/README_CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-client-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-client-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudClientBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-client-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-consumer-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-consumer-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudConsumerBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-consumer-sample/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-consumer-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudProviderBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/src/main/java/com/alibaba/cloud/dubbo/service/InMemoryUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/src/main/java/com/alibaba/cloud/dubbo/service/StandardRestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudWebProviderBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/src/main/java/com/alibaba/cloud/dubbo/service/InMemoryUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/src/main/java/com/alibaba/cloud/dubbo/service/SpringRestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-provider-web-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/src/main/java/com/alibaba/cloud/dubbo/service/EchoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/src/main/java/com/alibaba/cloud/dubbo/service/RestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/src/main/java/com/alibaba/cloud/dubbo/service/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/src/main/java/com/alibaba/cloud/dubbo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-sample-api/src/main/java/com/alibaba/cloud/dubbo/util/LoggerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-server-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-server-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudServerBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-server-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway-sample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway-sample/src/main/java/com/alibaba/cloud/dubbo/bootstrap/DubboSpringCloudServletGatewayBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway-sample/src/main/java/com/alibaba/cloud/dubbo/gateway/DubboGatewayServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway-sample/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway-sample/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/node-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-consul-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-consul-example/src/main/java/com/alibaba/cloud/sidecar/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-consul-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-nacos-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-nacos-example/src/main/java/com/alibaba/cloud/sidecar/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-alibaba-sidecar-examples/spring-cloud-alibaba-sidecar-nacos-example/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-bus-rocketmq-example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-bus-rocketmq-example/src/main/java/com/alibaba/cloud/examples/rocketmq/RocketMQBusApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-bus-rocketmq-example/src/main/java/com/alibaba/cloud/examples/rocketmq/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-bus-rocketmq-example/src/main/java/com/alibaba/cloud/examples/rocketmq/UserRemoteApplicationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-examples/spring-cloud-bus-rocketmq-example/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/RuleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/AbstractDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/ApolloDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/ConsulDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/DataSourcePropertiesConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/FileDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/NacosDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/RedisDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/config/ZookeeperDataSourceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/converter/JsonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/converter/SentinelConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/converter/XmlConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/ApolloDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/ConsulDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/FileRefreshableDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/NacosDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/RedisDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/java/com/alibaba/cloud/sentinel/datasource/factorybean/ZookeeperDataSourceFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/main/resources/META-INF/sentinel-datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/ApolloDataSourceFactoryBeanTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/DataSourcePropertiesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/FileRefreshableDataSourceFactoryBeanTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/NacosDataSourceFactoryBeanTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/NacosDataSourcePropertiesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/RuleTypeTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/SentinelConverterTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/java/com/alibaba/cloud/sentinel/datasource/ZookeeperDataSourceFactoryBeanTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/resources/flowrule-errorcontent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/resources/flowrule-errorformat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-datasource/src/test/resources/flowrule.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/ConfigConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/FallbackProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/GatewayEnvironmentPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/SentinelGatewayAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/scg/SentinelGatewayProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/scg/SentinelSCGAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/zuul/FallBackProviderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/zuul/SentinelZuulAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/java/com/alibaba/cloud/sentinel/gateway/zuul/SentinelZuulProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-alibaba-sentinel-gateway/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/ReactiveSentinelCircuitBreaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/ReactiveSentinelCircuitBreakerAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/ReactiveSentinelCircuitBreakerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelCircuitBreaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelCircuitBreakerAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelCircuitBreakerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelConfigBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/test/java/com/alibaba/cloud/circuitbreaker/sentinel/ReactiveSentinelCircuitBreakerIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/test/java/com/alibaba/cloud/circuitbreaker/sentinel/ReactiveSentinelCircuitBreakerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/test/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelCircuitBreakerIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-circuitbreaker-sentinel/src/test/java/com/alibaba/cloud/circuitbreaker/sentinel/SentinelCircuitBreakerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/src/main/java/com/alibaba/cloud/nacos/config/server/NacosConfigServerAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/src/main/java/com/alibaba/cloud/nacos/config/server/environment/NacosEnvironmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/src/test/java/com/alibaba/cloud/nacos/config/server/bootstrap/NacosConfigServerBootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config-server/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/NacosConfigAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/NacosConfigBootstrapConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/NacosConfigManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/NacosConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/NacosPropertySourceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/client/NacosPropertySource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/client/NacosPropertySourceBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/client/NacosPropertySourceLocator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/diagnostics/analyzer/NacosConnectionFailureAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/diagnostics/analyzer/NacosConnectionFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/endpoint/NacosConfigEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/endpoint/NacosConfigEndpointAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/endpoint/NacosConfigHealthIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/AbstractNacosDataParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/NacosDataJsonParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/NacosDataParserHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/NacosDataPropertiesParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/NacosDataXmlParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/parser/NacosDataYamlParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/refresh/NacosContextRefresher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/refresh/NacosRefreshHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/java/com/alibaba/cloud/nacos/refresh/NacosRefreshProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigPropertiesServerAddressBothLevelTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigPropertiesServerAddressTopLevelTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigurationExtConfigTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigurationNewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigurationNoSuffixTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosConfigurationXmlJsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/NacosFileExtensionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-config/src/test/java/com/alibaba/cloud/nacos/endpoint/NacosConfigEndpointTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ConditionalOnNacosDiscoveryEnabled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/NacosDiscoveryProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/NacosServiceAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/NacosServiceInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/NacosServiceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/NacosDiscoveryAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/NacosDiscoveryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/NacosDiscoveryClientConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/NacosServiceDiscovery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/NacosWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/actuate/health/NacosDiscoveryHealthIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/configclient/NacosConfigServerAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/configclient/NacosDiscoveryClientConfigServiceBootstrapConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/reactive/NacosReactiveDiscoveryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/discovery/reactive/NacosReactiveDiscoveryClientConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/endpoint/NacosDiscoveryEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/endpoint/NacosDiscoveryEndpointAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/event/NacosDiscoveryInfoChangedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/registry/NacosRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/registry/NacosRegistrationCustomizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/registry/NacosServiceRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/registry/NacosServiceRegistryAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/ConditionalOnRibbonNacos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/ExtendBalancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/NacosRibbonClientConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/NacosRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/NacosServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/NacosServerIntrospector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/NacosServerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/java/com/alibaba/cloud/nacos/ribbon/RibbonNacosAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/NacosDiscoveryClientTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/NacosDiscoveryPropertiesServerAddressBothLevelTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/NacosDiscoveryPropertiesServerAddressTopLevelTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/discovery/NacosDiscoveryAutoConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/discovery/NacosDiscoveryClientConfigurationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/discovery/NacosServiceDiscoveryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/discovery/reactive/NacosReactiveDiscoveryClientConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/discovery/reactive/NacosReactiveDiscoveryClientTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/MockNamingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistrationIpNetworkInterfaceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistrationIpTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistrationManagementPortTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistrationPortTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosAutoServiceRegistrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/registry/NacosRegistrationCustomizerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/ribbon/NacosRibbonClientConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/ribbon/NacosRibbonClientPropertyOverrideTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/ribbon/NacosServerListTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/test/CommonTestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-nacos-discovery/src/test/java/com/alibaba/cloud/nacos/test/NacosMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataContextBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignBlockingLoadBalancerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignClientAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataFeignObjectWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataHystrixFeignBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataLoadBalancerFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/SeataSentinelFeignBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/hystrix/SeataHystrixAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/feign/hystrix/SeataHystrixConcurrencyStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/rest/SeataRestTemplateAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/rest/SeataRestTemplateInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/web/SeataHandlerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/java/com/alibaba/cloud/seata/web/SeataHandlerInterceptorConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-seata/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/SentinelConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/SentinelProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/SentinelWebAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/SentinelWebFluxAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/annotation/SentinelRestTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/BlockClassRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/SentinelAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/SentinelBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/SentinelCircuitBreakerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/SentinelDataSourceHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/custom/SentinelProtectInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/endpoint/SentinelEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/endpoint/SentinelEndpointAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/endpoint/SentinelHealthIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/feign/SentinelContractHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/feign/SentinelFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/feign/SentinelFeignAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/feign/SentinelInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/java/com/alibaba/cloud/sentinel/rest/SentinelClientHttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/ContextIdSentinelFeignTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/SentinelAutoConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/SentinelBeanAutowiredTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/SentinelDataSourceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/SentinelFeignTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/SentinelRestTemplateTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/TestConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/java/com/alibaba/cloud/sentinel/endpoint/SentinelHealthIndicatorTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/resources/authority.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/resources/degraderule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/resources/flowrule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/resources/param-flow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sentinel/src/test/resources/system.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarDiscoveryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarHealthChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarHealthIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarInstanceCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/SidecarProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/consul/SidecarConsulAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/consul/SidecarConsulAutoRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/consul/SidecarConsulDiscoveryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/nacos/SidecarNacosAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/nacos/SidecarNacosDiscoveryClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/java/com/alibaba/cloud/sidecar/nacos/SidecarNacosDiscoveryProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-alibaba-sidecar/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-bus-rocketmq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-bus-rocketmq/src/main/java/com/alibaba/cloud/bus/rocketmq/env/RocketMQBusEnvironmentPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-bus-rocketmq/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/README_CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/actuate/DubboMetadataEndpointAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/actuate/endpoint/DubboRestMetadataEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/annotation/DubboTransported.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboLoadBalancedRestTemplateAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboMetadataAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboOpenFeignAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboServiceAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboServiceDiscoveryAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboServiceRegistrationAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/DubboServiceRegistrationNonWebApplicationAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/autoconfigure/condition/MissingSpringCloudRegistryConfigPropertyCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/client/loadbalancer/DubboClientHttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/client/loadbalancer/DubboClientHttpResponseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/client/loadbalancer/DubboHttpOutputMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/client/loadbalancer/DubboMetadataInitializerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/client/loadbalancer/DubboTransporterInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/context/DubboServiceRegistrationApplicationContextInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/env/DubboCloudProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/env/DubboNonWebApplicationEnvironmentPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/ByteArrayHttpInputMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/DefaultHttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/HttpServerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/MutableHttpServerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/converter/HttpMessageConverterHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/AbstractHttpRequestMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/AbstractMediaTypeExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/AbstractNameValueExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/CompositeHttpRequestMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/ConsumeMediaTypeExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HeaderExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestConsumersMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestHeadersMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestMethodsMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestParamsMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestPathMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestProducesMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/MediaTypeExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/NameValueExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/ParamExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/ProduceMediaTypeExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/matcher/RequestMetadataMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/util/HttpMessageConverterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/http/util/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/DubboProtocolConfigSupplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/DubboRestServiceMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/DubboTransportedMethodMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/MethodMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/MethodParameterMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/RequestMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/RestMethodMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/ServiceRestMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/repository/DubboServiceMetadataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/repository/RandomServiceInstanceSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/repository/ServiceInstanceSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/resolver/DubboServiceBeanMetadataResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/resolver/DubboTransportedAttributesResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/resolver/DubboTransportedMethodMetadataResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/metadata/resolver/MetadataResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/openfeign/DubboInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/openfeign/FeignMethodMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/openfeign/TargeterBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/openfeign/TargeterInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/AbstractSpringCloudRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/DelegatingRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/DubboCloudRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/DubboServiceRegistrationEventPublishingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/SpringCloudRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/SpringCloudRegistryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/event/ServiceInstancePreRegisteredEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/event/ServiceInstanceRegisteredEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/event/ServiceInstancesChangedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/registry/event/SubscribedServicesChangedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboGenericServiceExecutionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboGenericServiceExecutionContextFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboGenericServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboMetadataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboMetadataServiceExporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboMetadataServiceInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/DubboMetadataServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/IntrospectiveDubboMetadataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/AbstractDubboGenericServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/AbstractNamedValueServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/DubboGenericServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/PathVariableServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/RequestBodyServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/RequestHeaderServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/service/parameter/RequestParamServiceParameterResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/util/DubboCloudConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/util/DubboMetadataUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/java/com/alibaba/cloud/dubbo/util/JSONUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.registry.RegistryFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/resources/META-INF/dubbo/default/actuator-endpoints.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/autoconfigure/DubboServiceRegistrationAutoConfigurationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/AbstractHttpRequestMatcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/AbstractMediaTypeExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/AbstractNameValueExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/ConsumeMediaTypeExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/HeaderExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestMethodsMatcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/HttpRequestParamsMatcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/ParamExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/matcher/ProduceMediaTypeExpressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/http/util/HttpUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/metadata/RequestMetadataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/java/com/alibaba/cloud/dubbo/metadata/resolver/DubboTransportedMethodMetadataResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-dubbo/src/test/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/RocketMQBinderConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/RocketMQBinderUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/RocketMQMessageChannelBinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/actuator/RocketMQBinderHealthIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/config/RocketMQBinderAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/config/RocketMQBinderHealthIndicatorAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/config/RocketMQComponent4BinderAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/consuming/RocketMQListenerBindingContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/consuming/RocketMQMessageQueueChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/integration/RocketMQInboundChannelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/integration/RocketMQMessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/integration/RocketMQMessageSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/metrics/Instrumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/metrics/InstrumentationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBinderConfigurationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBindingProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQConsumerProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQExtendedBindingProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQProducerProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/provisioning/RocketMQTopicProvisioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/provisioning/selector/PartitionMessageQueueSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/support/AbstractRocketMQHeaderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/support/JacksonRocketMQHeaderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/java/com/alibaba/cloud/stream/binder/rocketmq/support/RocketMQHeaderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/resources/META-INF/spring.binders" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-starters/spring-cloud-starter-stream-rocketmq/src/test/java/com/alibaba/cloud/stream/binder/rocketmq/RocketMQAutoConfigurationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seata@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seata@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seata@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seata: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="temp@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="temp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="temp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="temp: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sca_study" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Maven\repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mI95vxicU50B0wPT5k4HsDM34A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowBean Validation.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring_security_learn/securitydemo1" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_storage\src\main\resources\Mapper" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_order\src\main\resources\com.sca.order" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_account\src\main\resources\com.sca.account" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_order\src\main\resources" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_storage\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sca.order.Service" />
+      <recent name="com.sca.storage.pojo" />
+      <recent name="com.sca.account.pojo" />
+      <recent name="com.sca.storage.POJO" />
+      <recent name="com.sca.order.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sc_gateway\src\main\java\com\sca\gateway" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sc_gateway\src\main\resources" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_storage\src\main\resources" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_account\src\main\resources" />
+      <recent name="G:\AXiangmu\springcloud-alibaba-study-code\Spring-Cloud-Alibaba\sca_study\sca_seata_order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="sca_seata_account" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sca_seata_account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sca.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sca.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sc_gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sca.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sca.gateway.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sca_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sca.NacosProviderDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sca_seata_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sca.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sca.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sca_seata_storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sca.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sca.storage.StorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Spring Boot.NacosProviderDemoApplication" />
+      <item itemvalue="Spring Boot.AccountApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.StorageApplication" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Spring Boot.StorageApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="Application.Test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11885246" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:temp@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:temp@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@366af6c9" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:temp@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@dd726d8" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f1b38a8-f16e-4418-9b06-8ab7a48bd39d" name="Default Changelist" comment="" />
+      <created>1609170059401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609170059401</updated>
+      <workItem from="1609170068872" duration="619000" />
+      <workItem from="1609202039492" duration="1770000" />
+      <workItem from="1609203837970" duration="808000" />
+      <workItem from="1609312547574" duration="2338000" />
+      <workItem from="1609381003118" duration="25337000" />
+      <workItem from="1609516492905" duration="1643000" />
+      <workItem from="1609602355402" duration="819000" />
+      <workItem from="1609641353767" duration="3793000" />
+      <workItem from="1609662667027" duration="5015000" />
+      <workItem from="1609684839933" duration="1484000" />
+      <workItem from="1609729119911" duration="10568000" />
+      <workItem from="1609760966424" duration="5242000" />
+      <workItem from="1609850577196" duration="5222000" />
+      <workItem from="1609897827239" duration="12435000" />
+      <workItem from="1609986685883" duration="800000" />
+      <workItem from="1610098074328" duration="4833000" />
+      <workItem from="1610271453809" duration="3684000" />
+      <workItem from="1610284048769" duration="180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Plugins" timestamp="1609645026013">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1609645026013" />
+    <state x="361" y="87" key="#Project_Structure" timestamp="1610112256016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="87" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1610112256016" />
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1609736892719" />
+    <state x="361" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610271808381">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1610271808381" />
+    <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1609645092698" />
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1609759736602">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1609759736602" />
+    <state x="214" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609668809679">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="214" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1609668809679" />
+    <state x="540" y="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609646209125">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1609646209125" />
+    <state x="549" y="179" key="FileChooserDialogImpl" timestamp="1610277263653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610277263653" />
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1609394324944" />
+    <state width="1289" height="270" key="GridCell.Tab.0.bottom" timestamp="1610115316942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610115316942" />
+    <state width="1289" height="352" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.0.center" timestamp="1610115316942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610115316942" />
+    <state width="1289" height="352" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.0.left" timestamp="1610115316941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610115316941" />
+    <state width="1289" height="352" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.0.right" timestamp="1610115316942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610115316942" />
+    <state width="1289" height="352" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.1.bottom" timestamp="1610115316943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610115316943" />
+    <state width="1289" height="352" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.1.center" timestamp="1610115316943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610115316943" />
+    <state width="1289" height="352" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.1.left" timestamp="1610115316942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610115316942" />
+    <state width="1289" height="352" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state width="1289" height="270" key="GridCell.Tab.1.right" timestamp="1610115316943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1289" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610115316943" />
+    <state width="1289" height="352" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609854268564" />
+    <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1609668551513">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1609668551513" />
+    <state x="270" y="75" key="SettingsEditor" timestamp="1609407267129">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1609407267129" />
+    <state x="449" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1609850613151">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1609850613151" />
+    <state x="332" y="15" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610112151621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="332" y="15" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1610112151621" />
+    <state x="447" y="165" width="642" height="534" key="find.popup" timestamp="1609422220889">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="447" y="165" width="642" height="534" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1609422220889" />
+    <state x="34" y="0" key="new project wizard" timestamp="1610098812100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="34" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1610098812100" />
+    <state x="34" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1609758920897" />
+    <state x="425" y="197" width="672" height="677" key="run.anything.popup" timestamp="1609203391931">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1609203391931" />
+    <state x="425" y="85" width="672" height="676" key="search.everywhere.popup" timestamp="1609668527694">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="85" width="672" height="676" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1609668527694" />
+  </component>
+</project>

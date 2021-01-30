@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sca_provider" />
+        <module name="sca_sentinel" />
+        <module name="sca_seata_account" />
+        <module name="sca_seata_storage" />
+        <module name="sc_gateway" />
+        <module name="sca_consumer" />
+        <module name="sca_config" />
+        <module name="sca_seata_order" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
